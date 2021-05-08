@@ -18,6 +18,7 @@ kittenEl.textContent = "This is my kitten 🐱.";
 nameEl.textContent = "His name is Jax.";
 favoriteEl.textContent = "My favorite foods are:";
 
+
 body.appendChild(h1El);
 body.appendChild(infoEl);
 infoEl.appendChild(imgEl);
