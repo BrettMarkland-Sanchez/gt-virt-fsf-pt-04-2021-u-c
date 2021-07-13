@@ -4,7 +4,7 @@
 
   * HINT: Remember, bigger datasets require more time to import properly, so be patient
 
-  * HINT: If you feel that the import process is taking far too long, feel free to use `Top1000Songs.csv` instead. We would highly recommend working with the bigger dataset if you can, however
+  * HINT: If you feel that the import process is taking far too long, feel free to use `Top1000Songs.csv` instead. We would highly recommend working with the bigger dataset if you can, however.
 
   * HINT: Take the downtime you have been given to start on the next part of the activity
 
