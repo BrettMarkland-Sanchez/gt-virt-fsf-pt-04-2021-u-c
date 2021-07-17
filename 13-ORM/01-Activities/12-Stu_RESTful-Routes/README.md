@@ -1,4 +1,4 @@
-# 🐛 Routes Return 200 Status Code Every Time
+# 🐛 Routes Return 200 Status Code Every Time.
 
 Work with a partner to resolve the following issues:
 
