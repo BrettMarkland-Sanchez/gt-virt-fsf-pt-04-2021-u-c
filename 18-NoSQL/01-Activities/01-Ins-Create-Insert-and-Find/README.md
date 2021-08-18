@@ -20,7 +20,7 @@ db
 
 * ALSO, TAKE NOTE: the contents of the insert are basically a JS object, and include an array:
 
-```sql
+```js
 db.places.insert({"continent": "Africa", "country":"Morocco", "majorcities": ["Casablanca", "Fez", "Marrakech"]})
 ```
 
@@ -34,19 +34,19 @@ db.places.insert({"continent": "Africa", "country":"Morocco", "majorcities": ["C
 
 * This id is specific for each doc in the collection:
 
-```sql
+```js
 db.places.find()
 ```
 
 * Adding .pretty() makes the data more readable:
 
-```sql
+```js
 db.places.find().pretty()
 ```
 
 * Find specific data by matching a field:
 
-```sql
+```js
 db.places.find({"continent": "Africa"})
 db.places.find({"country": "Morocco"})
 ```
@@ -57,7 +57,7 @@ db.places.find({"country": "Morocco"})
 
 * Find specific data by matching an _id:
 
-```sql
+```js
 db.places.find({_id:[COPY AN OBJECTID FROM THE PREVIOUS FIND RESULTS]})
 ```
 
