@@ -13,7 +13,7 @@ function Form({ onSubmit, placeholder, title, eagerness }) {
     if (title) {
       setForm(form => ({ ...form, value: title, eagerness }));
     }
-  }, [title]);
+  }, [title, eagerness]);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -65,7 +65,8 @@ function Form({ onSubmit, placeholder, title, eagerness }) {
 Form.propTypes = {
   onSubmit: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
-  title: PropTypes.string
-}
+  title: PropTypes.string,
+  eagerness: PropTypes.string,
+};
 
 export default Form;

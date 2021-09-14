@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function DropdownItem({ onSelect, name, value }) {
   return <p onClick={() => onSelect(name)}>{value}</p>;
@@ -29,6 +30,18 @@ function Dropdown({ label, data, onDropdownChange }) {
       </div>
     </div>
   )
+}
+
+DropdownItem.propTypes = {
+  onSelect: PropTypes.func.isRequired,
+  name: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+}
+
+Dropdown.propTypes = {
+  onDropdownChange: PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
+  data: PropTypes.object.isRequired,
 }
 
 export default Dropdown;

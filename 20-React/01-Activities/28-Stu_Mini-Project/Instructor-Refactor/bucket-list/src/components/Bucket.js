@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import BucketForm from './BucketForm';
 
 function Bucket({ 
@@ -51,5 +52,18 @@ function Bucket({
     );
   });
 }
+
+
+Bucket.propTypes = {
+  completeBucketItem: PropTypes.func.isRequired,
+  editBucketItem: PropTypes.func.isRequired,
+  removeBucketItem: PropTypes.func.isRequired,
+  bucket: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    value: PropTypes.string,
+    eagerness: PropTypes.string,
+    complete: PropTypes.bool,
+  })),
+};
 
 export default Bucket;

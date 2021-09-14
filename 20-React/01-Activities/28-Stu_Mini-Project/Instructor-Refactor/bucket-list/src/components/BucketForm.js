@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { v4 as uuidv4 } from 'uuid';
 import Form from './form/Form';
 
@@ -25,5 +26,16 @@ function BucketForm({ addBucketItem, edit, submitUpdate }) {
     />
   );
 }
+
+BucketForm.propTypes = {
+  addBucketItem: PropTypes.func,
+  submitUpdate: PropTypes.func,
+  edit: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    value: PropTypes.string,
+    eagerness: PropTypes.string,
+    complete: PropTypes.bool,
+  }),
+};
 
 export default BucketForm;
