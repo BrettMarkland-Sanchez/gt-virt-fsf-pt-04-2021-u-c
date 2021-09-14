@@ -7,6 +7,7 @@ function BucketList() {
 
   // Function to add a bucket list item
   const addBucketItem = (item) => {
+    if (!item.value) return;
     setBucket(curr => [...curr, item]);
   };
 
