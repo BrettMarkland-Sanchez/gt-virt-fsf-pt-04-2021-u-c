@@ -2,8 +2,6 @@
 
 ## Career Connection
 
-![Career Services Logo](./assets/cs_logo.png#right)
-
 Now you're really bringing everything together&mdash;the entire MERN stack. You now know how to build a full-stack application in essentially two different ways:
 
 - Templating (by using an Express server and Handlebars.js)
@@ -48,9 +46,7 @@ For practice in a live, interview-style IDE, complete the following algorithm ch
 
 ### Career Services Events
 
-![Career Services Online Events graphic](./assets/online-events.png)
-
-If you want to learn more about the technical interviewing process and practice algorithms in a mock interview setting, attend one of our [upcoming workshops](https://careerservicesonlineevents.splashthat.com/)!
+If you want to learn more about the technical interviewing process and practice algorithms in a mock interview setting, attend one of our [upcoming workshops](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp)!
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
